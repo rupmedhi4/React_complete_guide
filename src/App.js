@@ -30,7 +30,7 @@ import NewExpense from './components/NewExpense/NewExpense';
       id:"e4",
       title : "mobile recharge",
       amount : 384,
-      date : new Date(2021,3,20)
+      date : new Date(2020,3,20)
     } 
   ];
 const App = ()=> {
