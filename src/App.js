@@ -12,7 +12,7 @@ import NewExpense from './components/NewExpense/NewExpense';
       id:"e1",
       title : "toilet paper",
       amount : 384,
-      date : new Date(2023,3,23)
+      date : new Date(2022,3,22)
     } ,
     {
       id:"e2",
@@ -24,13 +24,13 @@ import NewExpense from './components/NewExpense/NewExpense';
       id:"e3",
       title : "car insurance",
       amount : 384,
-      date : new Date(2023,3,23)
+      date : new Date(2020,3,21)
     } ,
     {
       id:"e4",
       title : "mobile recharge",
       amount : 384,
-      date : new Date(2023,3,23)
+      date : new Date(2021,3,20)
     } 
   ];
 const App = ()=> {
