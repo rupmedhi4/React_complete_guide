@@ -1,0 +1,50 @@
+
+  .expenses-filter{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #40005d;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+   
+  }
+  
+  @media (min-width: 580px) {
+    .yearMargin {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      
+    }
+  
+  }
+ .yearMargin{
+    margin-left: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #40005d;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+   
+ }
+
+
+/* Apply different margin for smaller screens */
+@media screen and (max-width: 768px) {
+  .yearMargin {
+    margin: 4%;
+  }
+}
+
+/* Apply different margin for even smaller screens */
+@media screen and (max-width: 480px) {
+  .yearMargin {
+    margin: 4px;
+  }
+}
+
+
+
+
+
